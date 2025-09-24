@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">My Application2</string>
     <string name="no_message">Belum ada pesan</string>
-    <string name="type_message_hint">Ketik pesan...</string>
+    <string name="type_message_hint">Ketik pesan</string>
     <string name="send_to_activity2">Kirim ke Activity 2</string>
-    <string name="reply_hint">Balas pesan...</string>
+    <string name="reply_hint">Balas pesan</string>
 
 </resources>
