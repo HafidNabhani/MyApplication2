@@ -3,28 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/textReceived"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pesan dari Activity 1 akan muncul disini"
+        android:text="Pesan dari Activity 1 akan muncul di sini"
         android:textSize="16sp"
+        android:gravity="center"
         android:padding="8dp"
-        android:background="#DDDDDD"/>
+        android:background="#DDDDDD"
+        android:layout_marginBottom="12dp"/>
 
     <EditText
-        android:minHeight="48dp"
         android:id="@+id/editReply"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Balas pesan..." />
+        android:minHeight="48dp"
+        android:hint="Balas pesan..."
+        android:gravity="center"/>
 
     <Button
         android:id="@+id/btnReply"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kirim Balasan"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="16dp"/>
 </LinearLayout>

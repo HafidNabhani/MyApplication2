@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp">
 
     <TextView
@@ -12,20 +12,22 @@
         android:layout_height="wrap_content"
         android:text="Belum ada pesan"
         android:textSize="16sp"
+        android:gravity="center"
         android:padding="8dp"
-        android:background="#DDDDDD"/>
+        android:background="#DDDDDD"
+        android:layout_marginBottom="12dp"/>
 
     <EditText
         android:id="@+id/editMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Ketik pesan..." />
+        android:hint="Ketik pesan..."
+        android:gravity="center"/>
 
     <Button
         android:id="@+id/btnSend"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kirim ke Activity 2"
-        android:layout_marginTop="12dp"/>
-
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
